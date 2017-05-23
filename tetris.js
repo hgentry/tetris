@@ -483,9 +483,10 @@ function Grid() {
 			ctx.fillText('Controls:', 0, scale*3);
 			ctx.fillText('Shift - left/right arrows', 0, scale*4);
 			ctx.fillText('Soft Drop - down arrow', 0, scale*5);
-			ctx.fillText('Hard Drop - down arrow', 0, scale*6);
+			ctx.fillText('Hard Drop - up arrow', 0, scale*6);
 			ctx.fillText('Hold - shift', 0, scale*7);
 			ctx.fillText('Rotate - x', 0, scale*8);
+			ctx.fillText('Start Game - spacebar', 0, scale*9);
 		}
 		ctx.fillStyle = "#000000";
 		ctx.font = '20px sans-serif';
